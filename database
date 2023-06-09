@@ -1,0 +1,10 @@
+DROP database book_manager;
+CREATE database book_manager;
+use book_manager;
+CREATE TABLE books (
+id int primary key auto_increment,
+name varchar(50),
+price int,
+status int,
+author varchar(50)
+);
